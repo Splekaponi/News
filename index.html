@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pines News</title>
+    <link rel="stylesheet" href="./style.css"> <!-- Link to the external CSS -->
+</head>
+<body>
+
+    <div class="button-container">
+        <button id="homeButton" class="btn btn-primary">Home</button>
+        <button class="btn btn-primary" onclick="scrollToSection('editorial')">Editorial</button>
+        <button class="btn btn-primary" onclick="scrollToSection('column')">Column</button>
+        <button class="btn btn-primary" onclick="scrollToSection('science')">Science</button>
+        <button class="btn btn-primary" onclick="scrollToSection('literature')">Literature</button>
+        <button class="btn btn-primary" onclick="scrollToSection('sports')">Sports</button>
+    </div>
+
+    <section id="main">
+        <div class="container">
+            <div class="main-content"></div>
+        </div>
+    </section>
+
+    <section id="services">
+        <div class="container">
+            <div class="section-title">
+                <h1>News</h1>
+                <div class="line"></div>
+            </div>
+            <div class="services">
+                <div class="service" onclick="openModal('./pic/awarding for seminar.jpg', 'On October 17, 2024, Pines City National High School (PCNHS) held a campus journalism seminar-workshop at the ICT-DCP Room. The seminar-workshop was attended by Special Program in Journalism (SPJ) students from all grade levels. The seminar-workshop was opened with a prayer by Kenneth Bautista. This was followed by a welcome address from Teresita D. Estocapio, a school teacher. Darell Kyle Navalta, the learning resource provider, then introduced the speaker for the day, Jogin Rey Tamayo, a former Editor. The first session of the seminar-workshop was on editorial cartooning. Sir Tamayo taught the students the basics of editorial cartooning and showed them some examples of editorial cartoons. The second session was on editorial writing. Sir Tamayo again led this session, teaching the students how to write editorials. The third and final session was on column writing, where Sir Tamayo taught the students the purpose of and how to write columns. “As a Grade 8 SPJ student, I was truly impressed and enjoyed Sir Tamayo\'s seminar. His talents across various fields left me amazed,” shared Veenuz Lei Bumaltao, an SPJ student. Another student, Andrei Miguel Balmonte, added, “Sir Tamayo gave an in-depth analysis on editorial writing and is helping me improve my journalistic skills.” This campus journalism seminar-workshop was a valuable experience for the students of PCNHS. It empowered them with new knowledge to further their skills and creativity and motivated them to excel as next-generation journalists, marking a great step towards advancing journalism excellence at their school.')">
+                    <img src="./pic/awarding for seminar.jpg" alt="Seminar">
+                    <h3>Seminar</h3>
+                    <p>On October 17, 2024, PCNHS hosted a campus journalism seminar-workshop...</p>
+                </div>
+                    
+                <div class="service" onclick='openModal("./pic/dama.jpg", "Pines City National High School (PCNHS) Science Festivals concluded recently with excitement and celebration of academic achievement. The event, held on October 11, 2024, saw students from all grade levels compete in Sci-Dama. In Grade 7 Sci-Dama, Shem Gabriel Grant Cadsi, from 7-G, coached by G. Santos, emerged as the champion with four wins. Johara Pareña, from 7-B, coached by R. Poclingan, placed second with three wins. Dhaniel Jhon L. Alcantara, from 7-A, coached by G. Santos, earned third place with two wins. For Grade 8 Sci-Dama, Haironisa B. Batuan, from 8-D, coached by Andrew Bangcado, dominated with five wins, securing first place. Veenuz Lei B. Bumaltao, from 8-B, also coached by Andrew Bangcado, placed second with four wins, and Kathleen D. Dumasig, from 8-B, secured third place with three wins. In Grade 9 Sci-Dama, Christine Jane G. Resultan, from 9-B, coached by J. Abuda, claimed the top spot with four wins. Rex B. Balicao, from 9-F, coached by R. Poclingan, came in second with four wins, while Rachel Ann P. Alban, from 9-B, coached by J. Abuda, rounded out the top three with three wins. At Grade 10 Sci-Dama, Renz Gerard G. Castro, from 10-E, coached by J. Dacalcap, emerged as the champion with five wins. Rexar G. Yodong, from 10-B, placed second with four wins, and Kecia Blaire C. Biag, from 10-H, secured third place with three wins. According to Veenuz Bumaltao, one of the Sci-Dama players, - \"During the Sci-Dama Elimination, I felt both excited and pressured, knowing that every move counted. To prepare, I practiced different strategies and made sure I was familiar with the rules of the game.\" The Science Festivals at Pines City National High School (PCNHS) were a great success, showcasing the hard work of students in the Sci-Dama competitions. Students from all grades displayed their skills, with winners in each category celebrating their achievements.")'>
+                    <img src="./pic/dama.jpg" alt="SCI-DAMA SHOWDOWN">
+                    <h3>SCI-DAMA SHOWDOWN AT PCNHS</h3>
+                    <p>Pines City National High School's Sci-Dama competitions highlighted the strategic skills of students...</p>
+                </div>
+                
+                <div class="service" onclick="openModal('./pic/PCNHS pampered.jpg', 'On October 3, 2024, Pines City National High School (PCNHS) had a spectacular way of commemorating the arduous work and sacrifices of teachers in a true expression of appreciation on this year\'s Teacher\'s Day. Considering the regular class sessions, it made room for an additional special session to be set aside just for the teaching staff as it aimed at giving an inspirational, physical, and psychological healing celebration. Fun and meaningful activities filled the day: pampering and entertainment were fused. Teachers were given free whole-body massages courtesy of the Philippine Association of Licensed Massage Therapists Baguio-Benguet Chapter headed by Emilia Taguiling Latogan. Beadwork jewelry-making workshops provided a creative outlet for the teachers, while carnival-style games like draw lots for teacher freebies and an online &#34;Guess Who&#34; game gave everyone a dose of fun. The most touching experience was probably the &#34;Teacher for a Day&#34; activity wherein students became the teachers in a merry play of roles, indicating their respect for the often-neglected duties of their teachers. A serenade was also conducted for appreciation for teachers, administrators, and staff, each having received heartfelt tokens. To celebrate their special day, teachers deserve to be pampered and take a well-earned break after a long, tiring day of teaching, standing, and instructing. They are truly appreciated by students for their selfless sacrifices and unwavering dedication to supporting their educational journey.')">
+                    <img src="./pic/PCNHS pampered.jpg" alt="Crafting Creativity">
+                    <h3>Crafting Creativity</h3>
+                    <p>On October 3, 2024, teachers at PCNHS explored their artistic side...</p>
+                </div>
+                
+                <div class="service" onclick="openModal('./pic/science action.jpg', 'The Science Festivals at Pines City National High School (PCNHS) came to an exciting end recently, marking a celebration of academic success. Students from all school levels competed in the Sci-quiz Bee competition on October 11, 2024. For the Grade 7 Sci-Quiz, Epefanio Pascua, from 7-B, coached by R. Poclingan, emerged victorious with a score of 37. Mariel M. Ulatan, from 7-D, coached by G. Santos, came in second with a score of 36. Alynna Shane S. De Guzman, from 7-D, coached by G. Santos, secured third place with a score of 32. On Grade 8 Sci-Quiz, Alber Rey A. Agaceta, from 8-D, coached by A. Bangcado, secured the first-place spot with a score of 38. Andrie Miguel B. Balmonte, from 8-B, coached by Andrew Bangcado, placed second with a score of 36. Frencine Kylee K. Emoliap, from 8-J, coached by O. Sinong, earned third place with a score of 32. At Grade 9 Sci-Quiz, Alexon C. Fernandez, from 9-D, coached by J. Abuda, took the top spot with a score of 27. Jamir Vohn F. Javier, from 9-A, coached by L. Dulad, came in second with a score of 24. Khisha Rhy D. Boquiren, from 9-D, coached by J. Abuda, secured third place with a score of 23. On Grade 10 Sci-Quiz, Heaven Grace O. Batay-an, from 10-D, coached by J. Dacalcap, emerged as the champion with a score of 46. Kenneth Nathan L. Bautista, from 10-B, coached by J. Dacalcap, placed second with a score of 30. Angelica Mae S. Besa, from 10-D, coached by J. Dacalcap, secured third place with a score of 28. Pines City National High School\'s (PCNHS) Science Festivals were a huge success, demonstrating the students\' diligence in the Sci-Quiz contest. All grade levels demonstrated their abilities, and the winners of each category celebrated their accomplishments.')">
+                    <img src="./pic/science action.jpg" alt="Science in Action">
+                    <h3>Science in Action</h3>
+                    <p>The Science Festivals at PCNHS celebrated academic achievement...</p>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonial">
+        <div class="container">
+            <img src="./pic/quote.png" alt="Quote">
+            <h1>"Journalism is popular, but it is popular mainly as fiction. Life is one world, and life seen in the newspapers another."</h1>
+            <div class="profile">
+                <img src="./pic/profile.jpg" alt="F.G.K. Chesterton">
+                <h4>F. G.K. Chesterton</h4>
+            </div>
+        </div>
+    </section>
+
+    <section id="about-us">
+        <div class="container">
+            <div class="about-content">
+                <h1>Relax and recharge</h1>
+                <p>October 3, 2024, teachers at PCNHS were treated to relaxing whole-body massages, honoring their dedication with a well-deserved moment of pampering.</p>
+            </div>
+            <div class="about-image">
+                <img src="./pic/massage.jpg" alt="RELAX AND RECHARGE">
+            </div>
+        </div>
+    </section>
+
+    <!-- Add this inside your "services" section or create a new section -->
+    <section id="questions">
+        <div class="container">
+            <h1>Elimination for Damath and Math Quiz</h1>
+            <p>On October 10, 2024, the students of Pines City National High School (PCNHS) competed in the school elimination round to move on to the district level for Damath and Math Quiz. Students selected to compete exchanged intelligence, vying for a spot at the next level.</p>
+        </div>
+    </section>
+
+    <section id="description">
+        <div class="container">
+            <div class="description-text">
+                <p>For Grade 7 Math Quiz Elimination, Pascua, Epefanio A and Pareñas, Johara T, from 7-B coached by Sir Tarnate, Rusty B, won 1st Place for the elimination while Crisostomo Ervindale M and Limon, Hannah Isabelle P from 7-D, coached by Ma'am Gam-ad, Jocelyn Q, won 2nd place for the elimination. De Guzman, Alynna Shane S and Visca, Tristine Allain D, from 7-D, coached by Ma'am Gam-ad, Jocelyn Q, won 3rd place for the elimination. These people are coached by the respectful teacher/coaches who are willing to make the student more intellectual and competitive. They motivate them to do better and be confident in competing.</p>
+    
+                <p>For The Grade 8 Math Quiz Elimination, Laguardia, Sharleen Denise B from 8-A and Grosoe, MA. Cassandra C. from 8-C, both coached by Ma'am Ba-as, Estrella B, won 1st Place for the Elimination. Pusi, Yuwel K, and Digmayo, Von Ysrael F, both coached by Ma'am Ba-as, Estrella B, won 2nd place for the Elimination. Potingan, Haylee Rich and Bautista, Maybelen Nikki P, from 8-D, both coached by Ma'am Ba-as, Estrella B, won 3rd place for the Elimination.</p>
+    
+                <p>For the Grade 9 Math Quiz Elimination, Fernandez, Alexson C. and Malaluan, Marc Ernest R, both from 9-D, coached by Ma'am Aglit, May Ann N, won the 1st place for the elimination. Ordanza, Rochelle Ann O and Gurion, Noel M, both from 9-D, coached by Ma'am Aglit, May Ann N, won 2nd place for the elimination. Campos, Alexis G. from 9-A and Manzanares, James Paul D. from 9-I, both coached by Ma'am Beray, Concepcion T, won 3rd place.</p>
+    
+                <p>For the Grade 10 Math Quiz Elimination, Macasiray, Kimberly M. and Lizardi, Dolce Ghebryl Ryce S, both from 10-B, coached by Ma'am Buenavista, Eloisa M, won 1st Place for the Elimination. Manganip, Genevieve Rose P. from 10-E and Oduña, Symon Jahziel D. from 10-J, both coached by Ma'am Buenavista, Eloisa M, won 2nd Place for the Elimination. Sabong, Alexa Mae G from 10-F and Olay, Alyssa Ashley B from 10-H, both coached by Sir Cabannag, Jerry G, won 3rd place for the elimination.</p>
+    
+                <p>The next one is The Damath School Elimination.</p>
+    
+                <p>For Grade 7 Damath Elimination, Nay-osan, Jimmy F from 7-I, was coached by Sir Tarnate, Rusty B, won 1st place for the elimination, Escaño, Jovelyn P from 7-B, coached by Sir Tarnate, Rusty B, won 2nd place for the Elimination. Cayabyab, Spade S from 7-D, coached by Ma'am Gam-ad, Jocelyn Q, won 3rd place for the Elimination.</p>
+    
+                <p>For The Grade 8 Damath Elimination, Arzadon, Xy D. from 8-D, coached by Ma'am Ba-as, Estrella B, won 1st place for the elimination. While Kes-ar, Sean Jacob P from 8-A, coached by Ma'am Ba-as, Estrella B won 2nd place for the elimination. Aluan, Jhems Dominic C from 8-D, coached by Ma'am Ba-as, Estrella B, won 3rd place for the elimination.</p>
+    
+                <p>For The Grade 9 Damath Elimination, Danabar, Danirick C from 9-C, coached by Ma'am Beray, Concepcion T, won 1st place Balicao, Rex from 9-F, coached by Ma'am Martinez, Maria Theresa M, won 2nd place for the elimination. Ebora, Angelo Greg A from 9-D, coached by Ma'am Aglit, May Ann N, won 3rd place for the elimination.</p>
+    
+                <p>For The Grade 10 Damath Elimination, Camba, Althea Mae T. from 10-B, coached by Ma'am Buenavista, Eloisa M, won 1st Place for the elimination. Parado, Joshua James L from 10-B, coached by Ma'am Buenavista, Eloisa M, won 2nd place for the elimination. Ferrer, Carl Justin R from 10-A, coached by Sir Sacwog, Elmer A.</p>
+    
+                <p>Recognized as one of the foremost competitors in the Grade 7 Math Quiz, Pascua, Epefanio A, candidly shares his experience: "Throughout the intense Math competition, I found myself grappling most with the complexities of Geometry and the intricacies of Algebraic Expressions. These two areas presented substantial hurdles, requiring a deeper level of understanding and strategic problem-solving that I initially struggled to master."</p>
+    
+                <p>Each of the talented competitors is guided by their esteemed coaches and educators, whose unwavering dedication and profound wisdom inspire and uplift their students. These mentors instill not only knowledge but also an incredible sense of motivation and self-belief that drives the students to reach new heights. The passion and commitment these coaches bring to their role are truly immeasurable, and for this, we are deeply grateful. Their encouragement is the silent force behind every success, and we owe much of the students' growth to their nurturing hands.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Editorial, Column, Science, Literature, and Sports Sections -->
+    <section id="editorial">
+        <div class="container">
+            <div class="section-title">
+                <h1>Editorial</h1>
+                <div class="line"></div>
+            </div>
+            <p>Insightful opinions and analyses about the latest topics that matter.</p>
+        </div>
+    </section>
+
+    <section id="column">
+        <div class="container">
+            <div class="section-title">
+                <h1>Column</h1>
+                <div class="line"></div>
+            </div>
+            <p>Columns from your favorite writers sharing their perspectives.</p>
+        </div>
+    </section>
+
+    <section id="science">
+        <div class="container">
+            <div class="section-title">
+                <h1>Science</h1>
+                <div class="line"></div>
+            </div>
+            <p>Exploring the world of science, technology, and innovation.</p>
+        </div>
+    </section>
+
+    <section id="literature">
+        <div class="container">
+            <div class="section-title">
+                <h1>Literature</h1>
+                <div class="line"></div>
+            </div>
+            <p>Delve into the beauty of prose, poetry, and storytelling.</p>
+        </div>
+    </section>
+
+    <section id="sports">
+        <div class="container">
+            <div class="section-title">
+                <h1>Sports</h1>
+                <div class="line"></div>
+            </div>
+            <p>Updates and highlights from the world of sports and competition.</p>
+        </div>
+    </section>
+
+    <!-- JavaScript to handle smooth scroll when clicking the buttons -->
+    <script>
+        // Function to scroll to a specific section
+        function scrollToSection(sectionId) {
+            const section = document.getElementById(sectionId);
+            section.scrollIntoView({ behavior: 'smooth' });
+        }
+
+        // Scroll to top when Home button is clicked
+        document.getElementById('homeButton').addEventListener('click', function () {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+    </script>
+</body>
+</html>
+
+    <div id="imageModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <img id="modalImage" src="" alt="Image" />
+            <p id="modalText"></p>
+        </div>
+    </div>
+
+    <!-- JavaScript to handle smooth scroll and modal functionality -->
+    <script>
+        function scrollToSection(sectionId) {
+            const section = document.getElementById(sectionId);
+            section.scrollIntoView({ behavior: 'smooth' });
+        }
+
+        document.getElementById('homeButton').addEventListener('click', function () {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+
+        function openModal(imageSrc, text) {
+            const modal = document.getElementById('imageModal');
+            const modalImage = document.getElementById('modalImage');
+            const modalText = document.getElementById('modalText');
+            
+            modal.style.display = 'block';
+            modalImage.src = imageSrc;
+            modalText.textContent = text;
+        }
+
+        window.onload = () => {
+            const modal = document.getElementById('imageModal');
+            const closeBtn = document.querySelector('.modal .close');
+
+            closeBtn.onclick = () => {
+                modal.style.display = 'none';
+            };
+
+            window.onclick = (event) => {
+                if (event.target === modal) {
+                    modal.style.display = 'none';
+                }
+            };
+        };
+    </script>
+</body>
+</html>
